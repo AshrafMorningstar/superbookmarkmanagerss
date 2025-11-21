@@ -1,0 +1,1 @@
+start_up = proc () po: stream := stream$primary_output() stream$putl(po, "Hello, world") end start_up

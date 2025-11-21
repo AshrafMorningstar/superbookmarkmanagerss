@@ -1,0 +1,1 @@
+(* "Hello, world!" in Coq is a proposition that can be proven *) Inductive HelloWorld : Prop := hello : HelloWorld.

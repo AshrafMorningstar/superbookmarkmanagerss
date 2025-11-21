@@ -1,0 +1,15 @@
+GitHub Activity Bot Schedule
+=========================
+
+Daily Commits:
+- Every day at 10:33
+- Every day at 11:29
+- Every day at 13:56
+- Every day at 16:48
+- Every day at 18:39
+- Every day at 19:02
+
+Weekday Commits:
+- Every Monday at 10:30
+- Every Wednesday at 15:45
+- Every Friday at 13:15

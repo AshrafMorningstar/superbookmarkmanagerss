@@ -1,0 +1,15 @@
+<process name="helloWorld"
+             targetNamespace="http://samples.otn.com/bpel/helloWorld"
+             xmlns="http://docs.oasis-open.org/wsbpel/2.0/process/executable"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <sequence>
+        <assign>
+          <copy>
+            <from>
+              <literal>Hello, World!</literal>
+            </from>
+            <to variable="output" part="payload"/>
+          </copy>
+        </assign>
+      </sequence>
+    </process>

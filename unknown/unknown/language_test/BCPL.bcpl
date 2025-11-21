@@ -1,0 +1,1 @@
+GET "libhdr.h" START() FINISH( Manifest(0) ) LET Main() BE { WriteS("Hello, World!*N") }

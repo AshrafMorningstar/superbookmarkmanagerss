@@ -1,0 +1,1 @@
+main() { putstr("Hello, world!\n"); }

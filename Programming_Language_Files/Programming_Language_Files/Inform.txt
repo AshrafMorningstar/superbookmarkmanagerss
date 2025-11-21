@@ -1,0 +1,4 @@
+// Hello, World! for Inform
+
+// Created by: Ashraf Morningstar
+// GitHub: https://github.com/AshrafMorningstar

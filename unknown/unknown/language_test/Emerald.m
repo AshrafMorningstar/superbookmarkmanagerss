@@ -1,0 +1,1 @@
+// Emerald is a distributed object-oriented language, this is a comment

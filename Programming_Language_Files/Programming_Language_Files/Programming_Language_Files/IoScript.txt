@@ -1,0 +1,4 @@
+// Hello, World! for IoScript
+
+// Created by: Ashraf Morningstar
+// GitHub: https://github.com/AshrafMorningstar

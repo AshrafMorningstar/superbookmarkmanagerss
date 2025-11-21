@@ -1,0 +1,3 @@
+module hello
+Start :: String
+Start = "Hello, World!"

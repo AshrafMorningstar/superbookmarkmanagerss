@@ -1,0 +1,1 @@
+// JavaFX Script is a discontinued language, this is a comment

@@ -1,0 +1,1 @@
+// KRL is a knowledge representation language, this is a comment

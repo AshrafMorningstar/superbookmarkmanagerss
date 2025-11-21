@@ -1,0 +1,1 @@
+(defun c:hello () (princ "Hello, world!"))

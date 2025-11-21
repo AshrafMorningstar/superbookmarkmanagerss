@@ -1,0 +1,1 @@
+MODULE HelloWorld; IMPORT Tbox; BEGIN Tbox.Main("Hello, World!"); END HelloWorld.

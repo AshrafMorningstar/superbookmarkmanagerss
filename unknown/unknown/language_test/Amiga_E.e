@@ -1,0 +1,2 @@
+PROC main() WriteF('Hello, World!
+') ENDPROC

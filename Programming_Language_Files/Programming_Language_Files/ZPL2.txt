@@ -1,0 +1,4 @@
+// Hello, World! for ZPL2
+
+// Created by: Ashraf Morningstar
+// GitHub: https://github.com/AshrafMorningstar

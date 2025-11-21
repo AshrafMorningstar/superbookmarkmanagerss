@@ -1,0 +1,1 @@
+body common control { bundlesequence => { "main" }; } bundle agent main { reports: "Hello, World!"; }

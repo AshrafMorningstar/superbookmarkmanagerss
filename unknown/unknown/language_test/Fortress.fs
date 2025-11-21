@@ -1,0 +1,1 @@
+// Fortress is a language designed by Sun, this is a comment

@@ -1,0 +1,4 @@
+// Hello, World! for OpenACC
+
+// Created by: Ashraf Morningstar
+// GitHub: https://github.com/AshrafMorningstar
