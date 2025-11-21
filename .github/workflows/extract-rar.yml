@@ -1,0 +1,27 @@
+name: Extract RAR on Push
+
+on:
+  push:
+    paths:
+      - '**.rar'
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install unrar
+        run: sudo apt-get update && sudo apt-get install -y unrar
+      
+      - name: Find and extract RAR files
+        run: |
+          find . -name "*.rar" -exec unrar x -y {} extracted_files/ \;
+          
+      - name: Commit extracted files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add extracted_files/
+          git commit -m "Auto-extract RAR files" || exit 0
+          git push
