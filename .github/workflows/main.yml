@@ -1,0 +1,9 @@
+# Convert all RAR files to ZIP
+for rar_file in *.rar; do
+    if [ -f "$rar_file" ]; then
+        base_name="${rar_file%.rar}"
+        unrar x "$rar_file" "$base_name/"
+        zip -r "${base_name}.zip" "$base_name/"
+        rm -rf "$base_name/"
+    fi
+done
