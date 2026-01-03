@@ -1,1 +1,9 @@
+/*
+ Copyright (c) 2026 Ashraf Morningstar
+ These are personal recreations of existing projects, developed by Ashraf Morningstar
+ for learning and skill development.
+ Original project concepts remain the intellectual property of their respective creators.
+ Repository: https://github.com/AshrafMorningstar
+*/
+
 {"level":"error","message":"Failed to schedule: Historical commit count exceeds safe maximum. Reduce range or commitsPerDay.","stack":"Error: Historical commit count exceeds safe maximum. Reduce range or commitsPerDay.\n    at Scheduler._runHistoricalMode (file:///C:/Users/Admin/bot%20s/V/github-activity-bot/src/scheduler.js:40:13)\n    at Scheduler.schedule (file:///C:/Users/Admin/bot%20s/V/github-activity-bot/src/scheduler.js:21:27)\n    at main (file:///C:/Users/Admin/bot%20s/V/github-activity-bot/src/index.js:133:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-11-05T09:27:40.050Z"}
